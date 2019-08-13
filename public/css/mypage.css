@@ -1,0 +1,46 @@
+.scores{
+    margin: 50px auto 0;
+    display: flex;
+    width: 720px;
+}
+.scoreItem{
+    flex-grow: 1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.scoreItem:not(:first-child){
+    margin-left: 15px;
+}
+
+.scoreTitle{
+    background: #FFAF01;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 12px;
+    color: #ffffff;
+}
+
+.scoreBody{
+    height: 100px;
+    border: 2px solid #FFAF01;
+    border-top: 0;
+    border-radius: 0 0 8px 8px / 0 0 8px 8px;
+    position: relative;
+}
+
+.scoreText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scoreNum{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+}
+.scoreUnit{
+    color: #333333;
+    font-weight: bold;
+}
